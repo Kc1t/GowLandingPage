@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 @mixin mobile{
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
         @content;
     }
 }
@@ -23,9 +23,8 @@ $darkerRed: #B12028;
 }
 
 body{
-    overflow: hidden;
-    // background-color: $mainBlack;
-    background-image: './img/Fundo_topo.png';
+    overflow-x: hidden;
+    background-color: $mainBlack;
     font-family: 'Poppins', sans-serif;
     @include mobile{
         display: none;
@@ -36,9 +35,6 @@ body{
 .Home{
     height: 100vh;
     width: 100vw;
-   
-}
-
 
 //Nav
 
@@ -83,6 +79,7 @@ body{
 //Textos
 
 .Container{
+    margin-bottom: 40vh;
     position: relative;
     left: 101px;
     top: 117px;
@@ -153,6 +150,33 @@ body{
         img{
             height: 40rem;
             width: 100%;
+        }
+    }
+}
+
+}
+
+.Sobre{
+    display: flex;
+    max-width: 300vh;
+
+    img{
+        width: 40rem;
+    }
+
+    .Text{
+
+        padding: 200px;
+
+        h2{
+            color: $darkerRed;
+        }
+
+        h4{
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: #fff;
+            font-weight: normal;
         }
     }
 }

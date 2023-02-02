@@ -1,5 +1,6 @@
 import Nav from "./components/Nav"
 import Ini from "./components/Ini"
+import Sobre from "./components/Sobre"
 import Back from './img/Fundo_topo.png'
 
 function App() {
@@ -9,8 +10,12 @@ function App() {
     <div className="Home" style={{ backgroundImage:`url(${Back})`, backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       <Nav/>
       <Ini/>
-
     </div>
+
+    <div>
+    <Sobre/>
+    </div>
+    
     </section>
   )
 }
