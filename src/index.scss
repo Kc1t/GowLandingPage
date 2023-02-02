@@ -155,9 +155,10 @@ body{
 }
 
 .Sobre{
+    transition: all 2s;
     display: flex;
     max-width: 300vh;
-
+    
     img{
         width: 40rem;
     }
@@ -172,6 +173,8 @@ body{
         }
 
         h4{
+            // max-width: 30vh;
+            // max-height: 30vh;
             font-size: 15px;
             letter-spacing: 1px;
             color: #fff;
@@ -227,3 +230,6 @@ body{
     }
 
 }
+
+
+// 

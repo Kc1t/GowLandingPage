@@ -2,6 +2,7 @@ import React from 'react'
 import Song from '../img/SongCover.svg'
 
 const Sobre = () => {
+  
     window.onSpotifyIframeApiReady = (IFrameAPI) => {
         let element = document.getElementById('embed-iframe');
         let options = {
@@ -26,7 +27,8 @@ const Sobre = () => {
         <br></br>
         -Bear McCreary
         </h4>
-      </div>
+
+      </div> 
     </div>
   )
 }
