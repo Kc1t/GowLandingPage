@@ -30,6 +30,7 @@ function App() {
         view={view}
         theme={theme}
       />
+
     </div>
 
     {/* <Quote/> */}
