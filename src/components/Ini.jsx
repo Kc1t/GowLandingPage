@@ -8,21 +8,21 @@ const Ini = () => {
     <div className='Container'>
       <span>E-Book</span>
       <div className="Text">
-        <h1>LookDev de <br></br>
-            Personagem 3D <br></br>
-             Rafael Grassetti
+        <h1>Composição de <br></br>
+            Trilha Sonora <br></br>
+             God Of War (2018)
         </h1>
          <h5>
-         Aprenda a criar um personagem 3D<br></br>
-         passando por múltiplas técnicas de Look<br></br> 
-         Development utilizadas na indústria de<br></br> 
-         Cinematic.
+         Lorem ipsum, dolor sit amet consectetur adipisicing.<br></br>
+         Lorem ipsum dolor sit amet adaw.<br></br> 
+         Lorem ipsum dolor sit amet consectetur.<br></br> 
+         Lorem, ipsum.
          </h5>
       </div>
 
       <div className='btn'>
       <img src={Down} alt="" />
-      <button className='btn1'>Baixar E-book</button>
+      <button className='btn1'>Baixar Trilha</button>
       </div>
 
       <div className="Cover">

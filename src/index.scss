@@ -51,9 +51,10 @@ body{
         span{
             flex: 1;
             img{
+                width: 5vw;
                 position: relative;
                 left: 101px;
-                top: 20px;
+                top: 24px;
             }
         }
         
@@ -82,7 +83,7 @@ body{
 .Container{
     position: relative;
     left: 101px;
-    top: 101px;
+    top: 117px;
     span{
         color: $darkerRed;
     }
@@ -90,15 +91,17 @@ body{
     .Text{
         display: flex;
         flex-direction: column;    
-        padding-bottom: 10px;
+        padding-bottom: 30px;
 
         h1{
+            font-size: 35px;
+            font-weight: bold;
             padding: 10px 0px;
             color: $mainWhite;
         }
          
         h5{
-            padding: 10px 0px;
+            font-size: 15px;
             font-weight: normal;
             color: $mainWhite;
         }
@@ -131,7 +134,7 @@ body{
         left: 57vh;
         top: -16vh;
         img{
-            height: 43rem;
+            height: 40rem;
             width: 100%;
         }
     }
