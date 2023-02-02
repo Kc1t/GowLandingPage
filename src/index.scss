@@ -166,9 +166,10 @@ body{
 
     .Text{
 
-        padding: 200px;
+        padding: 100px 120px;
 
         h2{
+            padding-bottom: 30px;
             color: $darkerRed;
         }
 
@@ -177,6 +178,15 @@ body{
             letter-spacing: 1px;
             color: #fff;
             font-weight: normal;
+
+        }
+        
+        :after{
+            content: "";
+            background-color: $mainRed;
+            width: 10px;
+            height: 1px;
+            position: absolute;
         }
     }
 }
