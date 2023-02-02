@@ -8,9 +8,10 @@ const Ini = () => {
     <div className='Container'>
       <span>E-Book</span>
       <div className="Text">
-        <h1>Composição de <br></br>
+        <h1>
+            Composição de <br></br>
             Trilha Sonora <br></br>
-             God Of War (2018)
+            God Of War (2018)
         </h1>
          <h5>
          Trilhas Sonoras são extremamente importantes<br></br>
@@ -26,7 +27,7 @@ const Ini = () => {
     </div>
 
     <div className="Cover">
-     <img src={Krat} alt="" />
+     <img src={Krat}/>
     </div>
       
      
