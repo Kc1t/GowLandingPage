@@ -12,7 +12,7 @@ const Nav = () => {
         <li> <a href='#nav'>Sobre</a></li>
         <li>Trilha</li>
         <li>Franquia</li>
-        <li>Contato</li>
+        <li><a href='#Contact'>Contato</a></li>
       </ul>
     </div>
   )

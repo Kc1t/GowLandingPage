@@ -13,7 +13,9 @@ $mainWhite: #FFF;
 
 $darkerRed: #B12028;
 $lighterBlack: #101010;
+$lighterGray: #9E9E9E;
 
+$input: #D6D6D6;
 
 
 *{
@@ -155,11 +157,18 @@ body{
 
 }
 
+.spo{
+    position: absolute;
+    min-width: 100%;
+    margin-top: -50px;
+    z-index: 3;
+}
+
 .Sobre{
     transition: all 2s;
     display: flex;
     max-width: 300vh;
-    margin-bottom: 10px;
+    min-height: 110vh;
     img{
         width: 40rem;
     }
@@ -231,6 +240,75 @@ body{
     }
 
 }
+
+
+.Form{
+    margin-top: -4px;
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    form{
+        background-color: rgba(255, 255, 255, 0.4); 
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        display: grid;
+        border-radius: 5px;
+        gap: 13px;
+        padding: 100px;
+        backdrop-filter: blur(5px);
+        filter: blur(-1px);
+        margin-bottom: 10rem;
+        
+        h4{
+            color: $darkerRed;
+            font-size: 40px;
+            text-align: start;
+            margin-bottom: -25px;
+        }
+    
+        span{
+            color: $lighterGray;
+            text-align: start;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+
+        input{
+            z-index: 4;
+            min-width: 430px;
+            background-color: $mainWhite;
+            border: 2px solid $lighterGray;
+            padding: 10px;
+            // background-color: transparent;
+            background-color: $mainWhite;
+            border-radius: 10px;
+            color: $mainBlack;
+        }
+
+        input::placeholder{
+            color: $input;
+        }
+    }
+
+    button{
+        border: 2px solid $darkerRed;
+        background-color: transparent;
+        margin-top: 5px;
+        padding: 10px;
+        color: $darkerRed;
+        max-width: 260px;
+        justify-content: start;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button:hover{
+        color: $mainWhite;
+        background-color: $darkerRed;
+    }
+}
+
 
 .Footer{
     color: $mainWhite;
