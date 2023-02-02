@@ -13,10 +13,10 @@ const Ini = () => {
              God Of War (2018)
         </h1>
          <h5>
-         Lorem ipsum, dolor sit amet consectetur adipisicing.<br></br>
-         Lorem ipsum dolor sit amet adaw.<br></br> 
-         Lorem ipsum dolor sit amet consectetur.<br></br> 
-         Lorem, ipsum.
+         Trilhas Sonoras são extremamente importantes<br></br>
+         Para criar uma sensação maior de imersão<br></br> 
+         do usuário com a obra e o mundo.<br></br> 
+         Ouça God Of War no Spotify
          </h5>
       </div>
 

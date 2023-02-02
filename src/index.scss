@@ -181,12 +181,58 @@ body{
 
         }
         
-        :after{
-            content: "";
-            background-color: $mainRed;
-            width: 10px;
-            height: 1px;
+        // :after{
+        //     content: "";
+        //     background-color: $mainRed;
+        //     width: 10px;
+        //     height: 1px;
+        //     position: absolute;
+        // }
+    }
+}
+
+.Quote{
+
+    max-height: 18vh;
+    background-color: $darkerRed;
+    color: $mainWhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+    h1{
+        font-weight: 600;
+        font-style: italic;
+    }   
+
+    .Author{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        
+        span{
+            margin-left: 270px;
+            font-weight: lighter;
+            font-style: italic;
+            
+        }
+
+        hr{
+            background-color: $mainWhite;
+            left: 47%;
+            width: 1px;
+            height: 280px;
+            margin-top: 2px;
+            justify-content: center;
+            align-items: center;
             position: absolute;
+            color: $mainWhite;
+            transform: rotate(-90deg);  
         }
     }
+
 }

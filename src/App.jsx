@@ -1,8 +1,9 @@
 import Nav from "./components/Nav"
 import Ini from "./components/Ini"
 import Sobre from "./components/Sobre"
-import Back from './img/Fundo_topo.png'
+import Quote from "./components/Quote";
 import SpotifyPlayer from 'react-spotify-player';
+import Back from './img/Fundo_topo.png';
 
 function App() {
 
@@ -24,12 +25,14 @@ function App() {
     <div>
       <Sobre/>
       <SpotifyPlayer
-        uri="spotify:album:1TIUsv8qmYLpBEhvmBmyBk"
+        uri="https://open.spotify.com/album/3AieuV7WztobSMYG86Hdez?si=1_Zg6QOsT5CLaKP1hDkyXw"
         size={size}
         view={view}
         theme={theme}
       />
     </div>
+
+    <Quote/>
 
     </section>
   )

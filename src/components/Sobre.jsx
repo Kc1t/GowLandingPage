@@ -10,6 +10,7 @@ const Sobre = () => {
         let callback = (EmbedController) => {};
         IFrameAPI.createController(element, options, callback);
       };
+      
   return (
     <div className='Sobre'>
       <div className="Music">
@@ -23,7 +24,7 @@ const Sobre = () => {
         <br></br>
          Usei as memórias que tinha da trilha clássica do antigo God of War – o coro profundo, percussão forte, e o metal gritante – e os reinventei para uma era Nórdica. Escrevi novos temas, e introduzi instrumentação exótica e línguas de várias tradições do norte da Europa à música. "<br></br>
         <br></br>
-        -Bear Mccreary
+        -Bear McCreary
         </h4>
       </div>
     </div>
