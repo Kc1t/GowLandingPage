@@ -20,14 +20,14 @@ const Ini = () => {
          </h5>
       </div>
 
-      <div className='btn'>
-      <img src={Down} alt="" />
-      <button className='btn1'>Baixar Trilha</button>
-      </div>
+    <div className='btn'>
+        <img src={Down}/>
+        <button className='btn1'>Baixar Trilha</button>   
+    </div>
 
-      <div className="Cover">
-        <img src={Krat} alt="" />
-      </div>
+    <div className="Cover">
+     <img src={Krat} alt="" />
+    </div>
       
      
     </div>

@@ -30,6 +30,7 @@ body{
     @include mobile{
         display: none;
     }
+
 }
 
 .Home{
@@ -74,6 +75,7 @@ body{
             :hover{
                 opacity: 0.6;
                 transition: ease-in-out .1s;
+                color: $mainRed;
             }
         }
 }
@@ -84,6 +86,7 @@ body{
     position: relative;
     left: 101px;
     top: 117px;
+
     span{
         color: $darkerRed;
     }
@@ -111,19 +114,33 @@ body{
     
         display: flex;
 
-        img{
-            width: 37px;
-            height: 35px;
-            cursor: pointer;
-        }
-        
-        .btn1{
+        button{
             background-color: $darkerRed;
             border: none;
             outline: none;
             padding: 8px 30px;
             color: $mainWhite;
             font-weight: bold;
+            cursor: pointer;
+        }
+    
+        button:hover{
+            transition: ease-in-out .1s;
+            background-color:$mainRed;
+        }
+    
+        // button:after{
+        //     content: "";
+        //     background-color: $mainRed;
+        //     width: 100px;
+        //     height: 100vh;
+        //     position: absolute;
+        //     z-index: 1000;
+        // }
+
+        img{
+            width: 37px;
+            height: 35px;
             cursor: pointer;
         }
         
