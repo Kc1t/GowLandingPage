@@ -8,6 +8,7 @@ function App() {
     <div className="Home" style={{ backgroundImage:`url(${Back})`, backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       <Nav/>
       <Ini/>
+
     </div>
   )
 }
