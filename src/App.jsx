@@ -1,7 +1,7 @@
 import Nav from "./components/Nav"
 import Ini from "./components/Ini"
 import Sobre from "./components/Sobre"
-import Quote from "./components/Quote";
+// import Quote from "./components/Quote";
 import SpotifyPlayer from 'react-spotify-player';
 import Back from './img/Fundo_topo.png';
 
@@ -32,7 +32,7 @@ function App() {
       />
     </div>
 
-    <Quote/>
+    {/* <Quote/> */}
 
     </section>
   )

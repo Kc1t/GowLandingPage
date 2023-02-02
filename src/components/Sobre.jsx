@@ -12,7 +12,7 @@ const Sobre = () => {
       };
       
   return (
-    <div className='Sobre'>
+    <div className='Sobre' id='nav'>
       <div className="Music">
         <img src={Song} alt="" />
       </div>

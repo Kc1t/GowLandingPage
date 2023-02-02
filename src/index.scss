@@ -73,7 +73,14 @@ body{
                 transition: ease-in-out .1s;
                 color: $mainRed;
             }
+
+            a{
+                text-decoration: none;
+                color: $mainWhite;
+            }
         }
+
+
 }
 
 //Textos
@@ -126,15 +133,6 @@ body{
             background-color:$mainRed;
         }
     
-        // button:after{
-        //     content: "";
-        //     background-color: $mainRed;
-        //     width: 100px;
-        //     height: 100vh;
-        //     position: absolute;
-        //     z-index: 1000;
-        // }
-
         img{
             width: 37px;
             height: 35px;
@@ -165,7 +163,7 @@ body{
     }
 
     .Text{
-
+        text-align: left;
         padding: 100px 120px;
 
         h2{
@@ -180,14 +178,7 @@ body{
             font-weight: normal;
 
         }
-        
-        // :after{
-        //     content: "";
-        //     background-color: $mainRed;
-        //     width: 10px;
-        //     height: 1px;
-        //     position: absolute;
-        // }
+
     }
 }
 

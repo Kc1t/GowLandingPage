@@ -7,9 +7,9 @@ const Nav = () => {
       <span><img src={SMS}/></span>
       <ul>
         <li>E-Book</li>
-        <li>Tópicos Abordados</li>
+        <li> <a href='#nav'>Sobre</a></li>
         <li>Quem Faz?</li>
-        <li>Sobre</li>
+        <li>Trilha</li>
         <li>Contato</li>
       </ul>
     </div>
