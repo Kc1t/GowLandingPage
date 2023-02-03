@@ -3,7 +3,7 @@ import Frey from '../img/Freya.svg'
 
 const Topic = () => {
   return (
-    <div className='Topic'>
+    <div className='Topic' id='Estudio'>
 
     <div className="Freys">
         <img src={Frey} alt="" />
