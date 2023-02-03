@@ -29,6 +29,7 @@ body{
     overflow-x: hidden;
     background-color: $mainBlack;
     font-family: 'Poppins', sans-serif;
+    
     @include mobile{
         display: none;
     }
@@ -47,9 +48,7 @@ body{
     justify-content: space-between;
     color: $mainWhite;
 
-
         span{
-            flex: 1;
             img{
                 width: 5vw;
                 position: relative;
@@ -73,7 +72,7 @@ body{
 
             :hover{
                 opacity: 0.6;
-                transition: ease-in-out .1s;
+                transition: ease-in-out .2s;
                 color: $mainRed;
             }
 
@@ -183,8 +182,6 @@ body{
         }
 
         h4{
-            // max-width: 30vh;
-            // max-height: 30vh;
             font-size: 15px;
             letter-spacing: 1px;
             color: #fff;
@@ -280,7 +277,6 @@ body{
             background-color: $mainWhite;
             border: 2px solid $lighterGray;
             padding: 10px;
-            // background-color: transparent;
             background-color: $mainWhite;
             border-radius: 10px;
             color: $mainBlack;
@@ -314,7 +310,6 @@ body{
     color: $mainWhite;
     display: flex;
     background-color: $lighterBlack;
-    // background-color: #fff;
     width:  100vw;
     height: 17vh;
 
