@@ -8,7 +8,6 @@ const Form = () => {
     id='Contact'
     >
 
-
       <form action="">
         <h4>Receba Mais</h4>
         <span>Preencha o formulário abaixo para acessar mais</span>

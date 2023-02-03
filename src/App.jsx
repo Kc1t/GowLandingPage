@@ -4,15 +4,15 @@ import Sobre from "./components/Sobre"
 import Quote from "./components/Quote";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
-import Topic from "./components/Topic";
 import SpotifyPlayer from 'react-spotify-player';
 import Back from './img/Cover/Fundo_topo.png';
+import Topic from "./components/Topic";
 
 function App() {
 
   const size = {
     width: '100%',
-    height: 400,
+    height: 300,
   };
   const view = 'list';
   const theme = 'black'; 
@@ -31,7 +31,7 @@ function App() {
 
       <Sobre/>
 
-      <div className="spo" id="Trilha">
+      <div className="spo" id="Trilha" style={{display:''}}>
         {/* Transformar isso em Componente */}
         
       <SpotifyPlayer
@@ -43,11 +43,11 @@ function App() {
 
         </div>
 
-    <div
+    {/* <div
     style={{height: "100vh", backgroundColor: "white", border:"none"}}
     >
-    </div>
-    {/* <Topic/> */}
+    </div> */}
+    <Topic/>
     <Form/>
     <Quote/>
     <Footer/>

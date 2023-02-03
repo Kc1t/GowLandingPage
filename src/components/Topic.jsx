@@ -1,19 +1,26 @@
 import React from 'react'
 import Frey from '../img/Freya.svg'
-import Atreus from '../img/Atreus.svg'
 
 const Topic = () => {
   return (
-    <div classname="Wrapper">
+    <div className='Topic'>
 
-      <img src={Frey} />
+        <img src={Frey} alt="" />
 
-      <div className="textBox">
+    <div className="TextArea">
+        
+    <h1>Santa Monica Studio</h1>
 
-      </div>
-      <div className="Person">
-          <img src={Atreus} />
-      </div>
+      <h5>
+      Estúdio é composto por um grupo de criativos diversificados, ambiciosos e altamente colaborativos que se capacitam mutuamente, enquanto trabalham em equipe para oferecer experiências PlayStation de alta qualidade baseadas em narrativas. Com origens em todo o mundo - do Brasil à Polônia e à pequena cidade dos EUA, somos o lar de mais de 250 desenvolvedores de classe mundial que se esforçam para impulsionar o meio a cada decisão criativa.
+
+    Centro de nossa história, estamos comprometidos com a grandeza e firmes em nosso ofício de desenvolver experiências inesquecíveis no jogo que inspiram nossos jogadores. Além disso, porém, somos movidos por algo muito maior... pelo desejo de desenvolver “histórias” de grandeza para cada membro da equipe. Fazer um jogo é uma tarefa enorme. Entre QA, Arte, Design, Programação, Produção, Som e todos os departamentos intermediários, todos somos responsáveis por conectar as maiores habilidades uns dos outros, enquanto trabalhamos em direção a uma visão comum.
+
+        _
+      </h5>
+
+    </div>
+
     </div>
   )
 }

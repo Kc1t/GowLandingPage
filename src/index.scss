@@ -14,6 +14,7 @@ $mainWhite: #FFF;
 $darkerRed: #B12028;
 $lighterBlack: #101010;
 $lighterGray: #9E9E9E;
+$lighterGray1: #717171;
 
 $input: #D6D6D6;
 
@@ -238,20 +239,11 @@ body{
 
 }
 
-//Topic
-
-.wrapper{
-    display: flex;
-    height: "100vh"; 
-    background-color: $mainWhite,
-}
-
-
 //Form
 
 .Form{
     margin-top: -4px;
-    padding-top: 100px;
+    padding-top: 300px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -352,4 +344,21 @@ body{
         }
     }
 }
-// 
+
+
+//Topic 
+
+.Topic{
+    padding: 200px;
+    background-color: $mainWhite;
+    height: 80vh;
+    display: flex;
+
+    h1{
+        color: $darkerRed;
+    }
+
+    h5{
+        color: $lighterGray1;
+    }
+}
