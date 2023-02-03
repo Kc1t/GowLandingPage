@@ -242,10 +242,12 @@ body{
 
 .wrapper{
     display: flex;
+    height: "100vh"; 
+    background-color: $mainWhite,
 }
 
 
-
+//Form
 
 .Form{
     margin-top: -4px;
