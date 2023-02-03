@@ -161,7 +161,7 @@ body{
     position: absolute;
     min-width: 100%;
     margin-top: -50px;
-    z-index: 3;
+    z-index: 1;
 }
 
 .Sobre{
@@ -349,16 +349,38 @@ body{
 //Topic 
 
 .Topic{
+
     padding: 200px;
     background-color: $mainWhite;
-    height: 80vh;
+    height: 90vh;
     display: flex;
-
-    h1{
-        color: $darkerRed;
+    justify-content: space-between;
+    
+    .Freys{
+        max-width: 10rem;
+        position: relative;
+        img{
+            width: 50rem;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            position: relative;
+            left: -290%;
+            // top: -200%;
+            z-index: 1;
+        }
+        
     }
 
-    h5{
-        color: $lighterGray1;
+    .TextArea{
+        max-width: 90vh;
+        text-align: left;
+        h1{
+            color: $darkerRed;
+        }
+        
+        h5{
+            color: $lighterGray1;
+        }
     }
 }
