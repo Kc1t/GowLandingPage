@@ -47,6 +47,7 @@ function App() {
     style={{height: "100vh", backgroundColor: "white", border:"none"}}
     >
     </div>
+    <Topic/>
     <Form/>
     <Quote/>
     <Footer/>
