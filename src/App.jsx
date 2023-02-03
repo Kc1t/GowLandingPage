@@ -4,6 +4,7 @@ import Sobre from "./components/Sobre"
 import Quote from "./components/Quote";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
+import Topic from "./components/Topic";
 import SpotifyPlayer from 'react-spotify-player';
 import Back from './img/Cover/Fundo_topo.png';
 
@@ -20,7 +21,7 @@ function App() {
   return (
 
     <section>
-      
+
     <div className="Home" style={{ backgroundImage:`url(${Back})`, backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
      
       <Nav/>
@@ -30,7 +31,7 @@ function App() {
 
       <Sobre/>
 
-      <div className="spo">
+      <div className="spo" id="Trilha">
         {/* Transformar isso em Componente */}
         
       <SpotifyPlayer
